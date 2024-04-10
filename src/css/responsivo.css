@@ -39,10 +39,11 @@
     }
   }
 
-  /* Estilos para telas ainda menores, como smartphones */
+ /* Estilos para telas ainda menores, como smartphones */
 @media only screen and (max-width: 480px) {
   .container-foto .foto {
-    width: 250px;
-    height: 250px;
-  }
+    width: 70%;
+    max-width: 320px; /* Define um limite máximo para a largura */
+    height: auto; /* Permite que a altura seja ajustada proporcionalmente */
+}
 }
